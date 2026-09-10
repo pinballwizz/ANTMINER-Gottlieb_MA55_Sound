@@ -1,7 +1,10 @@
 Gottlieb MA55 Soundboard for the ANTMINER S9 FPGA Board.
 
 Notes:
-Controls are PS2 keyboard Keys=QWERTYUIOPASDFG
+Controls are PS2 keyboard Keys=QWERTYUIOPASDFG (for testing)
+To modify for adding to pinball machine, edit Vivado Constraints file to remove keyboard and associate header pins with sound inputs.
+Ensure vhdl top level code is also modified accordingly for adding ANTMINER to your pinball.
+Ensure that any inputs to ANTMINER Board are either ground or 3.3v dc max (low or high logic levels for zynq7010 fpga)
 Consult the Schematics Folder for Information regarding peripheral connections.
 
 Build:
@@ -11,4 +14,3 @@ Build:
 * Place the generated prom files inside the proms folder.
 * Open the Gottlieb_MA55 project file using Vivado and compile.
 * Program ANTMINER S9 Board.
-
