@@ -4,7 +4,8 @@ Notes:
 Controls are PS2 keyboard Keys=QWERTYUIOPASDFG (for testing)
 To modify for adding to pinball machine, edit Vivado Constraints file to remove keyboard and associate header pins with sound inputs.
 Ensure vhdl top level code is also modified accordingly for adding ANTMINER to your pinball.
-Ensure that any inputs to ANTMINER Board are either ground or 3.3v dc max (low or high logic levels for zynq7010 fpga)
+Ensure that any inputs to ANTMINER Board are either ground or 3.3v dc max (low or high logic levels for zynq7010 fpga).
+Preferred Sound Input code should set inputs with internal pullups in Constraints file and active signals should be ground (logic low).
 Consult the Schematics Folder for Information regarding peripheral connections.
 
 Build:
