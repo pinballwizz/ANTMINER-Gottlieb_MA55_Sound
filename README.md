@@ -1,4 +1,4 @@
-# ANTMINER-Gottlieb_MA55_Sound
+# ANTMINER - Gottlieb MA55 Sound
 ![Model](ANTMINER-Gottlieb_MA55.jpg)
 ![Model](ANTMINER-Gottlieb_SYS1_Snd.jpg)
 ![Model](ANTMINER-Arcade_v1.2.jpg)
